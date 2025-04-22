@@ -1,0 +1,15 @@
+{
+  "hash": "74746e5e86d422c9068ad010d9357110",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Kiki Shimomae\"\nabout:\n  template: jolla\n  image: kikishimomae.jpeg\n  links: \n    - icon: github\n      text: Github\n      href: https://github.com/kshimomae\n    - icon: linkedin\n      text: LinkedIn\n      href: https://www.linkedin.com/in/kikishimomae/\n---\n\n\n\n\nHi, I'm Kiki Shimomae.\n\nKiki Shimomae is a current Master's student in Digital Marketing at Cal Poly Pomona. \n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,22 @@
+---
+title: "Marketing Analytics"
+---
+
+# Work in Progress!
+
+This page will have marketing and data analytics projects I completed through MSDM Courses including DWV. I will include multiple projects by summarizing key insights. 
+
+
+# Customer Satisfaction in Airline Industry
+
+- this project uses logistic regression, decision tree, and neural network.
+
+# The Role of Social Media Influence in Shaping Consumer Behavior
+
+- This project uses multiple linear regression. 
+
+# Add project 3
+
+
+
+# Add project 4 

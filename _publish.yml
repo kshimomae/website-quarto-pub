@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 9dc652dd-4e12-48a1-b3df-64ac6dbd65d6
+      url: 'https://kshimomae.quarto.pub/website-quarto-pub'

@@ -1,0 +1,76 @@
+---
+title: "Essay on Shiny Live"
+author: "Kiki Shimomae"
+---
+
+# Essay Prompt
+
+In Step 3, you learned about serverless Shiny Apps with "Shinylive." What is Shinylive? Assume that you are also explaining it to your coworkers. How does it differ from the traditional Shiny app introduced in Step 2? What are the pros and cons of Shinylive in comparison with Shiny Apps? This lecture note will become your "Essay on Shiny Live" part of the website.
+
+::: callout-note
+The videos provided for reference are:
+
+1.  [Shinylive: Serverless Shiny apps | ShinyConf 2024](https://www.youtube.com/watch?v=yAIvQrjlvbU&t=1s)
+:::
+
+# Answer: Shinylive
+
+
+# Introduction: What is Shinylive? 
+ 
+- Shinylive is an innovative approach to deploying Shiny applications and does not require a traditional R server. 
+- Runs entirely within the web browser instead of using server-side computation
+- Use of technology called WebAssembly 
+- Enable easy deployment, sharing, and hosting of the shiny application
+- Users can create interactive web apps that are fully on the client-side, allowing clients without any R background can easily use them. 
+
+# Difference Between Traditional Shiny apps and Shinylive apps 
+
+1. **Traditional Shiny Apps**
+- Require an R server to do computations and generate outputs.
+- Hosted on dedicated servers or cloud-based services, generally 
+- Impact accessibility and scalability since it relies on the server’s availability and connectivity. 
+ 
+2. **Shinylive Apps**
+- No need for execution from the server side
+- Run & generate entirely in the web browser 
+- Utilize WebAssembly to execute code in R directly in the web environment 
+- Easy to upload it on web hosts such as GitHub 
+
+
+# Pros and Cons of Shinylive 
+
+## Pros
+
+- **Easy to Launch & Update**
+  - Since Shinylive does not require a server, and makes hosting easy on web pages. Make the process simple and easy 
+  
+- **Cost Effective**
+   - Does not require the need for infrastructure for the server, which contributes to cost reduction 
+   
+- **High Accessibility**
+   - Apps are highly accessible, portable, and quickly laudable, and anyone can access them without relying on a server. 
+   
+- **Improved Scalability**
+  - Many users can access the app at the same time without decreasing performance quality 
+
+
+## Cons
+
+- **Performance restriction **
+  - Heavy and complex computation tasks might cause slow performance due to the limitations of the browser 
+- **Limitations for data handling**
+   - This is not suitable and ideal if users want to handle a large or complex dataset, since the large dataset needs to be downloaded to the browser. 
+
+- **Restriction for functionality**
+  - Some packages and certain functions still rely on the capability for server-side 
+
+
+# Resources
+
+-   [Official Shinylive Website from Posit](https://posit-dev.github.io/r-shinylive/)
+
+-   Video Tutorial: Watching how others use Shinylive is a great way to learn and practice.
+
+1.  [Shinylive: Serverless Shiny apps | ShinyConf 2024](https://www.youtube.com/watch?v=yAIvQrjlvbU&t=1s)
+

@@ -1,0 +1,32 @@
+---
+title: "My Presentations"
+format: html
+page-layout: full
+---
+
+# Explore My Presentations Slides
+
+- In this page, I will be adding multiple presentation slides which are clickable to view.  
+ 
+
+## Project 1
+[![Project 1](presentation1thumbnail.png)](presentation1.html)
+
+- Project 1 has presentation slides required for the Term Project Assignment with data analysis. 
+
+
+## Project 2
+
+
+- ADD DESCRIPTION
+
+## Project 3
+
+- ADD DESCRIPTION
+
+## Project 4
+
+- ADD DESCRIPTION
+
+
+ 

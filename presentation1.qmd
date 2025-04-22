@@ -1,0 +1,100 @@
+---
+title: "Identifying Key Drivers for Customer Satisfaction in the Airline Industry"
+subtitle: "Term Project Proposal"
+author: "Kiki Shimomae"
+institute: "IBM 6400, Cal Poly Pomona"
+date: "`r Sys.Date()`"
+format: 
+  revealjs:
+    self-contained: true
+    theme: serif
+    width: 1600
+    height: 900
+    footer: "Identifying Key Drivers for Customer Satisfaction in the Airline Industry"
+    transition: slide
+    transition-speed: default
+    incremental: false
+    toc: true
+    toc-depth: 1
+    slide-number: true
+    scrollable: true
+    smaller: true
+    code-fold: false
+    code-overflow: wrap
+    number-sections: false
+    number-depth: 5
+    embed-resources: true
+    css: styles.css
+editor: visual
+execute: 
+  echo: true
+  freeze: auto
+---
+
+# Project Title
+
+- Identifying Key Drivers for Customer Satisfaction in the Airline Industry
+
+# Data and source
+
+## Data 
+
+- I will use the same dataset I have for MSDM CEP. The data was originally collected by an anonymized airline company.  
+
+- The dataset includes more than 120,000 responses collected from passengers who rated their satisfaction levels across various service attributes and provided key demographic information, such as age, gender, and loyalty status. 
+
+
+```{r}
+#| echo: true
+#| code-fold: true
+#| code-summary: "Expand for full code"
+
+library(gtsummary)
+library(readxl)
+library(dplyr)
+
+data <- read_excel("Satisfaction.xlsx")
+head(data)
+ 
+```
+
+
+# Managerial problems motivating the project
+
+## Managerial problems motivating the project
+
+- Customer satisfaction is critical in the competitive airline industry. Understanding the factors influencing satisfaction can help airlines provide better services, retain customers, and improve their overall performance. 
+- Customer satisfaction is a complex and multidimensional concept, shaped by numerous factors that can shift over time due to technological development, changes in customer preference and expectation, and a competitive market. 
+- The decline in customer satisfaction can bring many negative impacts to the airline such as a negative reputation, lack of customer loyalty, loss of repeat purchases and businesses, and poor/negative online reviews affecting the company’s digital presence and performance. 
+- With airlines facing increasing pressure to differentiate themselves in a competitive market, understanding key factors impacting customer satisfaction is more important than ever in order to make strategic and informed decisions about service improvement, operational efficiency, and appropriate training for employees. 
+
+# Targeted audience  
+
+
+## Targeted audience for the project (e.g., CEO of the company)
+
+-  The target audience is anyone in a managerial position in an airline company who is responsible for improving customer satisfaction. 
+
+- Although the name of the company was not disclosed by the data, I assume that United Airlines can utilize the result from this project since the class options (business, economy, and economy plus) match exactly with United Airlines. 
+ 
+
+# Research questions/objectives
+
+## Research questions/objectives
+
+1. What is the most impactful factor influencing customer satisfaction? 
+2. How does the customer’s unique profile (demographics and travel purpose) influence customer satisfaction? 
+3. Which service factors should the airline prioritize to maximize customer satisfaction?
+
+
+# Expected impact of the project on the business
+
+
+## Expected impact of the project on the business
+
+- Enhance customer experience by focusing on improving key drivers for satisfaction
+- Reduce customer churn rate by focusing on and targeting factors that can lead to high-risk dissatisfaction
+- Make informed and data-driven decisions for resource allocation and operation and marketing strategy 
+- Optimize employee training by prioritizing the impact factor for better customer satisfaction. 
+
+

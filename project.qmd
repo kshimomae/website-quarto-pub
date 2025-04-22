@@ -1,0 +1,50 @@
+---
+title: "Digital Marketing Projects"
+subtitle: "Explore Digital Marketing Projects I involved both in professional and academic settings"
+format: 
+  html:
+    code-fold: true
+    code-link: true
+    code-annotations: below
+    toc: true
+    number-sections: false
+  pdf: default
+  docx: default
+editor: visual
+execute: 
+  echo: true
+bibliography: references.bib
+---
+# 📈 Project: Retailing Management for Cal Poly Pomona Farm Store 
+
+- Duration: June 2024 – August 2024
+- Role: 
+- Objective: 
+- Tools Used:
+- Strategy: 
+- Results:
+      - include numeric value
+
+- Visuals:  
+
+
+# 📈 Project: Boosting Organic Traffic for Taiyo America
+
+- Duration: June 2022 – August 2023
+- Role: SEO & Content Strategist
+- Objective: Increase organic traffic by 30% in 3 months
+- Tools Used: SEMrush, Google Search Console, WordPress
+- Strategy: Conducted keyword research, optimized 20+ product pages, created blog content around trending health topics
+- Results:
+      - Organic traffic increased by 42%
+      - Avg. session duration improved by 18%
+
+- Visuals: Include Google Analytics screenshot, before/after keyword rankings
+
+
+
+# Graphic Design Gallery 
+
+
+
+ 

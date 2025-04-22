@@ -1,0 +1,129 @@
+---
+title: "Influence of Inflight Service Quality on Customer Satisfaction in Airline Industry"
+format: 
+  dashboard:
+    theme: quartz
+---
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(readxl)
+library(tidyr)
+
+data <- read_excel("AO1data.xlsx")
+
+```
+
+## Value boxes {height="20%"}
+
+```{r}
+#| label: calculate-values
+satisfaction_rate <- mean(data$Satisfied) * 100
+avg_wifi_rating <- round(mean(data$wifi, na.rm = TRUE), 2)
+avg_service_rating <- round(mean(data$Service, na.rm = TRUE), 2)
+
+```
+
+
+```{r}
+#| content: valuebox
+#| title: "Average WiFi Rating"
+#| icon: wifi
+#| color: info
+list(
+  value = avg_wifi_rating
+)
+
+```
+ 
+```{r}
+#| content: valuebox
+#| title: "Avg. Service Rating"
+#| icon: headset
+#| color: primary
+list(
+  value = avg_service_rating
+)
+
+```
+
+## Plots {height="80%"}
+ 
+
+```{r}
+#| title: Frequency of Satisfied and Dissatisfied Customer 
+
+satisfaction_freq <- data %>%
+  group_by(Satisfied) %>%
+  summarise(Frequency = n()) %>%
+  mutate(
+    Percentage = round(Frequency / sum(Frequency) * 100, 2),
+    Satisfaction_Label = ifelse(Satisfied == 1, "1 = Satisfied", "0 = Neutral/Dissatisfied")
+  )
+
+ggplot(satisfaction_freq, aes(x = Satisfaction_Label, y = Frequency, fill = Satisfaction_Label)) +
+  geom_bar(stat = "identity", width = 0.6) +
+  geom_text(aes(label = paste0(Frequency, " (", Percentage, "%)")), 
+            vjust = -0.5, size = 4) +
+  scale_fill_manual(values = c("0 = Neutral/Dissatisfied" = "royalblue3", 
+                               "1 = Satisfied" = "coral1")) +
+  labs(x = "Customer Satisfaction",
+       y = "Frequency",
+       fill = "Satisfaction",
+       title = "Customer Satisfaction Frequency & Percentage", 
+       subtitle = paste("A total sample size in the data is", nrow(data)), 
+       caption = "Participants rated their satisfaction for the overall experience with the airline.") +
+  theme_minimal()
+
+```
+
+```{r}
+#| title: Ratings of On-board Services
+data_long <- data %>%
+  select(Food, Entertainment, On_board_service, Service, Cleanliness) %>%
+  pivot_longer(cols = everything(), names_to = "Category", values_to = "Rating")
+
+ggplot(data_long, aes(x = Category, y = Rating)) +
+  geom_boxplot(fill = "skyblue") +
+  labs(x = "Service Category", y = "Rating") +
+  theme_minimal()
+
+```
+
+
+
+```{r}
+#| label: fig-inflightservicefreq
+#| fig-cap: Descriptive Statistics (Frequency & Percentage) of Inflight Service Variables measured by 6-point Likert Scale
+
+inflight_data_long <- data %>%
+  select(wifi, Food, Entertainment, On_board_service, Service, Cleanliness) %>%
+  pivot_longer(cols = everything(), names_to = "Attribute", values_to = "Rating")
+
+likert_summary <- inflight_data_long %>%
+  group_by(Attribute, Rating) %>%
+  summarise(Frequency = n(), .groups = 'drop') %>%
+  mutate(Percentage = round(Frequency / sum(Frequency) * 100, 2))
+
+rating_labels <- c("0 = Extremely Dissatisfied",
+                   "1 = Dissatisfied",
+                   "2 = Somewhat Dissatisfied",
+                   "3 = Somewhat Satisfied",
+                   "4 = Satisfied",
+                   "5 = Extremely Satisfied")
+
+ggplot(likert_summary, aes(x = Attribute, y = Percentage, fill = factor(Rating, levels = 0:5, labels = rating_labels))) +
+  geom_bar(stat = "identity") +
+  geom_text(aes(label = paste0(Percentage, "%")), 
+            position = position_stack(vjust = 0.5), size = 3) +
+  labs(x = "In-flight Service Attributes", 
+       y = "Percentage (%)",
+       fill = "Customer Rating",
+       title = "Customer Satisfaction Rate for In-flight Service Attributes", 
+       caption = "Survey participants rated satisfaction from 0 to 5, where a higher value indicates greater satisfaction.") +
+  theme_minimal() +
+  scale_fill_brewer(palette = "Spectral") +
+  theme(legend.position = "right")
+
+```

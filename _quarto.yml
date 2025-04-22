@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "Kiki Shimomae"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: dashboard.qmd
+        text: Dashboard
+      - href: ShinyApps.qmd
+        text: Essay on Shiny Apps
+      - href: ShinyLive.qmd
+        text: Essay on Shiny Live
+      - href: project.qmd
+        text: Digital Marketing Projects
+      - href: marketinganalytics.qmd
+        text: Marketing Analytics
+      - href: presentations.qmd
+        text: Reveajs Presentation
+      - href: about.qmd
+        text: Blogs
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+execute: 
+  freeze: auto

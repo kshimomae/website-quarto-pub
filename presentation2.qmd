@@ -1,0 +1,51 @@
+---
+title: "Customer Satisfaction in the Airline Industry: A United Airlines Consulting Project"
+subtitle: "Proposal Presentation"
+author: "Kiki Shimomae"
+institute: "IBM 6400, Cal Poly Pomona"
+date: "`r Sys.Date()`"
+format: 
+  revealjs:
+    self-contained: true
+    theme: serif
+    width: 1600
+    height: 900
+    footer: "Customer Satisfaction in the Airline Industry: A United Airlines Consulting Project"
+    transition: slide
+    transition-speed: default
+    incremental: false
+    toc: true
+    toc-depth: 1
+    slide-number: true
+    scrollable: true
+    smaller: true
+    code-fold: false
+    code-overflow: wrap
+    number-sections: false
+    number-depth: 5
+    embed-resources: true
+    css: styles.css
+editor: visual
+execute: 
+  echo: true
+  freeze: auto
+---
+
+# Introduction
+
+## Probelm Statement
+
+-   United Airlines faces a competitive market where customer satisfaction influences retention and profitability.
+-   Evolving expectations and operational challenges hinder high satisfaction levels.
+-   By identifying key satisfaction drivers, United can improve service quality, optimize operations, and strengthen its market position.
+
+## One Analytics Objective
+
+**Influence of Inflight Service Quality on Customer Satisfaction**
+
+-   The objective is to determine what inflight service factors, such as Wifi service, food and drink, entertainment, cleanliness, and onboard service, affect overall customer satisfaction.
+
+## Importance
+
+-   With United Airlines operating in an increasingly competitive market, understanding customer satisfaction is crucial for differentiation.
+-   This study will provide valuable insights that United Airlines can leverage to enhance its service offerings, improve passenger experiences, and strengthen its competitive position

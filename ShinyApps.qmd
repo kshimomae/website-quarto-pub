@@ -1,0 +1,60 @@
+---
+title: "Essay on Shiny Apps"
+author: "Kiki Shimomae"
+---
+
+# Essay Prompt
+
+In Step 2, you learned how to build an interactive web app using Shiny. Let's assume that your coworkers are interested in learning about it and assume that you are helping them. Create a lecture note that you can use to teach the person. This will become part of the website under "Essay on Shiny Apps."
+
+::: callout-note
+The videos provided for reference are: 
+
+1. [Shiny Dashboard (with Rmd): Eurovision](https://www.youtube.com/watch?v=UGTTqhxaICU)
+
+2.  [Bring Data to Life: Create Interactive Apps with Shiny in R (with R Scripts file)](https://www.youtube.com/watch?v=po1gspivzew)
+
+:::
+
+# Answer: Building Interactive Web Apps with Shiny in R
+
+# Introduction: What is Shiny?
+
+-   Shiny is a package available to use in R Studio and originally developed by RStudio Inc. (current renamed company: Posit PBC) -　Shiny enables users to make interactive web applications directly from R Studio & Python
+-   Does not require users to have comprehensive knowledge of website development languages such as HTML, CSS, JavaScript
+-   Can be used for data visualization, exploratory analysis, and interactive dashboards.
+
+# Benefits of Using Shiny
+
+-   Easy to use for users who are familiar with R and Python
+-   Make the entire process of making interactive and responsive data-driven apps simple and easy
+-   Effective and easy to share data analysis and insight from the data with any collaborator, including other users and your clients.
+
+# Key Components of Shiny App
+
+1.  **User Interface (UI)** defines the layout and appearance of the app.
+
+-   Use functions like fluidPage(), sidebarLayout(), sidebarPanel(), mainPanel().
+-   Has input elements (sliderInput(), selectInput())
+-   Has output elements (plotOutput(), tableOutput()).
+
+2.  **Server** includes the logic that constructs outputs based on user inputs.
+
+-   Utilizes functions such as renderPlot(), renderTable(), and reactive({}) to make content in a dynamic way.
+
+# Tips
+
+-   Always start simple. Eventually, add more elements to make it complex
+-   Use (reactive({})) reactive expressions in order to avoid redundant calculations
+-   Include comments on each section/code clearly to make your App more organized and easy to understand
+-   Learning new things, especially for coding, always has a learning curve. Try and error, and continue practicing
+
+# Resources
+
+-   [Official Shiny Website from Posit](https://shiny.rstudio.com)
+
+-   Video Tutorial: Watching how others use Shiny is a great way to learn and practice.
+
+1.  [Shiny Dashboard (with Rmd): Eurovision](https://www.youtube.com/watch?v=UGTTqhxaICU)
+
+2.  [Bring Data to Life: Create Interactive Apps with Shiny in R (with R Scripts file)](https://www.youtube.com/watch?v=po1gspivzew)

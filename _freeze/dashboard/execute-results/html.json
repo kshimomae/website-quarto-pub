@@ -1,0 +1,17 @@
+{
+  "hash": "195ede7014664ee70832cae42df6e036",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Influence of Inflight Service Quality on Customer Satisfaction in Airline Industry\"\nformat: \n  dashboard:\n    theme: quartz\n---\n\n::: {.cell}\n\n:::\n\n\n\n\n## Value boxes {height=\"20%\"}\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell content='valuebox' title='Average WiFi Rating' icon='wifi' color='info'}\n::: {.cell-output .cell-output-stdout}\n\n```\n$value\n[1] 2.73\n```\n\n\n:::\n:::\n\n::: {.cell content='valuebox' title='Avg. Service Rating' icon='headset' color='primary'}\n::: {.cell-output .cell-output-stdout}\n\n```\n$value\n[1] 3.64\n```\n\n\n:::\n:::\n\n\n\n\n## Plots {height=\"80%\"}\n \n\n\n\n\n::: {.cell title='Frequency of Satisfied and Dissatisfied Customer'}\n::: {.cell-output-display}\n![](dashboard_files/figure-html/unnamed-chunk-5-1.png){width=768}\n:::\n:::\n\n::: {.cell title='Ratings of On-board Services'}\n::: {.cell-output-display}\n![](dashboard_files/figure-html/unnamed-chunk-6-1.png){width=768}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![Descriptive Statistics (Frequency & Percentage) of Inflight Service Variables measured by 6-point Likert Scale](dashboard_files/figure-html/fig-inflightservicefreq-1.png){#fig-inflightservicefreq width=768}\n:::\n:::\n",
+    "supporting": [
+      "dashboard_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
