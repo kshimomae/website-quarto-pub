@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "ShinyLive.html",
+    "href": "ShinyLive.html",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "In Step 3, you learned about serverless Shiny Apps with “Shinylive.” What is Shinylive? Assume that you are also explaining it to your coworkers. How does it differ from the traditional Shiny app introduced in Step 2? What are the pros and cons of Shinylive in comparison with Shiny Apps? This lecture note will become your “Essay on Shiny Live” part of the website.\n\n\n\n\n\n\nNote\n\n\n\nThe videos provided for reference are:\n\nShinylive: Serverless Shiny apps | ShinyConf 2024"
+  },
+  {
+    "objectID": "ShinyLive.html#pros",
+    "href": "ShinyLive.html#pros",
+    "title": "Essay on Shiny Live",
+    "section": "Pros",
+    "text": "Pros\n\nEasy to Launch & Update\n\nSince Shinylive does not require a server, and makes hosting easy on web pages. Make the process simple and easy\n\nCost Effective\n\nDoes not require the need for infrastructure for the server, which contributes to cost reduction\n\nHigh Accessibility\n\nApps are highly accessible, portable, and quickly laudable, and anyone can access them without relying on a server.\n\nImproved Scalability\n\nMany users can access the app at the same time without decreasing performance quality"
+  },
+  {
+    "objectID": "ShinyLive.html#cons",
+    "href": "ShinyLive.html#cons",
+    "title": "Essay on Shiny Live",
+    "section": "Cons",
+    "text": "Cons\n\nPerformance restriction \n\nHeavy and complex computation tasks might cause slow performance due to the limitations of the browser\n\nLimitations for data handling\n\nThis is not suitable and ideal if users want to handle a large or complex dataset, since the large dataset needs to be downloaded to the browser.\n\nRestriction for functionality\n\nSome packages and certain functions still rely on the capability for server-side"
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "My Presentations",
+    "section": "",
+    "text": "In this page, I will be adding multiple presentation slides which are clickable to view.\n\n\n\n\n\n\nProject 1\n\n\n\nProject 1 has presentation slides required for the Term Project Assignment with data analysis.\n\n\n\n\n\nADD DESCRIPTION\n\n\n\n\n\nADD DESCRIPTION\n\n\n\n\n\nADD DESCRIPTION"
+  },
+  {
+    "objectID": "presentations.html#project-1",
+    "href": "presentations.html#project-1",
+    "title": "My Presentations",
+    "section": "",
+    "text": "Project 1\n\n\n\nProject 1 has presentation slides required for the Term Project Assignment with data analysis."
+  },
+  {
+    "objectID": "presentations.html#project-2",
+    "href": "presentations.html#project-2",
+    "title": "My Presentations",
+    "section": "",
+    "text": "ADD DESCRIPTION"
+  },
+  {
+    "objectID": "presentations.html#project-3",
+    "href": "presentations.html#project-3",
+    "title": "My Presentations",
+    "section": "",
+    "text": "ADD DESCRIPTION"
+  },
+  {
+    "objectID": "presentations.html#project-4",
+    "href": "presentations.html#project-4",
+    "title": "My Presentations",
+    "section": "",
+    "text": "ADD DESCRIPTION"
+  },
+  {
+    "objectID": "presentation1.html#data",
+    "href": "presentation1.html#data",
+    "title": "Identifying Key Drivers for Customer Satisfaction in the Airline Industry",
+    "section": "Data",
+    "text": "Data\n\nI will use the same dataset I have for MSDM CEP. The data was originally collected by an anonymized airline company.\nThe dataset includes more than 120,000 responses collected from passengers who rated their satisfaction levels across various service attributes and provided key demographic information, such as age, gender, and loyalty status.\n\n\n\nExpand for full code\nlibrary(gtsummary)\nlibrary(readxl)\nlibrary(dplyr)\n\ndata &lt;- read_excel(\"Satisfaction.xlsx\")\nhead(data)\n\n\n# A tibble: 6 × 23\n  satisfied Female Customer   Age Biztravel   Eco Ecoplus Distance  wifi\n      &lt;dbl&gt;  &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;\n1         1      0        0    56         0     1       0      369     0\n2         1      0        0    49         0     1       0     2486     0\n3         1      0        0    55         0     1       0     1448     0\n4         1      1        0    36         0     1       0     1501     0\n5         1      0        0    55         0     1       0      577     0\n6         0      1        0    15         0     1       0     2704     1\n# ℹ 14 more variables: time_convenient &lt;dbl&gt;, online_book &lt;dbl&gt;, gate &lt;dbl&gt;,\n#   Food &lt;dbl&gt;, online_board &lt;dbl&gt;, Seat &lt;dbl&gt;, entertainment &lt;dbl&gt;,\n#   On_board_service &lt;dbl&gt;, Leg_room &lt;dbl&gt;, Baggage &lt;dbl&gt;, Checkin &lt;dbl&gt;,\n#   service &lt;dbl&gt;, Cleanliness &lt;dbl&gt;, Total_delay &lt;dbl&gt;"
+  },
+  {
+    "objectID": "presentation1.html#managerial-problems-motivating-the-project-1",
+    "href": "presentation1.html#managerial-problems-motivating-the-project-1",
+    "title": "Identifying Key Drivers for Customer Satisfaction in the Airline Industry",
+    "section": "Managerial problems motivating the project",
+    "text": "Managerial problems motivating the project\n\nCustomer satisfaction is critical in the competitive airline industry. Understanding the factors influencing satisfaction can help airlines provide better services, retain customers, and improve their overall performance.\nCustomer satisfaction is a complex and multidimensional concept, shaped by numerous factors that can shift over time due to technological development, changes in customer preference and expectation, and a competitive market.\nThe decline in customer satisfaction can bring many negative impacts to the airline such as a negative reputation, lack of customer loyalty, loss of repeat purchases and businesses, and poor/negative online reviews affecting the company’s digital presence and performance.\nWith airlines facing increasing pressure to differentiate themselves in a competitive market, understanding key factors impacting customer satisfaction is more important than ever in order to make strategic and informed decisions about service improvement, operational efficiency, and appropriate training for employees."
+  },
+  {
+    "objectID": "presentation1.html#targeted-audience-for-the-project-e.g.-ceo-of-the-company",
+    "href": "presentation1.html#targeted-audience-for-the-project-e.g.-ceo-of-the-company",
+    "title": "Identifying Key Drivers for Customer Satisfaction in the Airline Industry",
+    "section": "Targeted audience for the project (e.g., CEO of the company)",
+    "text": "Targeted audience for the project (e.g., CEO of the company)\n\nThe target audience is anyone in a managerial position in an airline company who is responsible for improving customer satisfaction.\nAlthough the name of the company was not disclosed by the data, I assume that United Airlines can utilize the result from this project since the class options (business, economy, and economy plus) match exactly with United Airlines."
+  },
+  {
+    "objectID": "presentation1.html#research-questionsobjectives-1",
+    "href": "presentation1.html#research-questionsobjectives-1",
+    "title": "Identifying Key Drivers for Customer Satisfaction in the Airline Industry",
+    "section": "Research questions/objectives",
+    "text": "Research questions/objectives\n\nWhat is the most impactful factor influencing customer satisfaction?\nHow does the customer’s unique profile (demographics and travel purpose) influence customer satisfaction?\nWhich service factors should the airline prioritize to maximize customer satisfaction?"
+  },
+  {
+    "objectID": "presentation1.html#expected-impact-of-the-project-on-the-business-1",
+    "href": "presentation1.html#expected-impact-of-the-project-on-the-business-1",
+    "title": "Identifying Key Drivers for Customer Satisfaction in the Airline Industry",
+    "section": "Expected impact of the project on the business",
+    "text": "Expected impact of the project on the business\n\nEnhance customer experience by focusing on improving key drivers for satisfaction\nReduce customer churn rate by focusing on and targeting factors that can lead to high-risk dissatisfaction\nMake informed and data-driven decisions for resource allocation and operation and marketing strategy\nOptimize employee training by prioritizing the impact factor for better customer satisfaction.\n\n\n\n\nIdentifying Key Drivers for Customer Satisfaction in the Airline Industry"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Please come back later."
+  },
+  {
+    "objectID": "about.html#coming-soon",
+    "href": "about.html#coming-soon",
+    "title": "Blog",
+    "section": "",
+    "text": "Please come back later."
+  },
+  {
+    "objectID": "ShinyApps.html",
+    "href": "ShinyApps.html",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Essay Prompt\nIn Step 2, you learned how to build an interactive web app using Shiny. Let’s assume that your coworkers are interested in learning about it and assume that you are helping them. Create a lecture note that you can use to teach the person. This will become part of the website under “Essay on Shiny Apps.”\n\n\n\n\n\n\nNote\n\n\n\nThe videos provided for reference are:\n\nShiny Dashboard (with Rmd): Eurovision\nBring Data to Life: Create Interactive Apps with Shiny in R (with R Scripts file)\n\n\n\n\n\nAnswer: Building Interactive Web Apps with Shiny in R\n\n\nIntroduction: What is Shiny?\n\nShiny is a package available to use in R Studio and originally developed by RStudio Inc. (current renamed company: Posit PBC) -　Shiny enables users to make interactive web applications directly from R Studio & Python\nDoes not require users to have comprehensive knowledge of website development languages such as HTML, CSS, JavaScript\nCan be used for data visualization, exploratory analysis, and interactive dashboards.\n\n\n\nBenefits of Using Shiny\n\nEasy to use for users who are familiar with R and Python\nMake the entire process of making interactive and responsive data-driven apps simple and easy\nEffective and easy to share data analysis and insight from the data with any collaborator, including other users and your clients.\n\n\n\nKey Components of Shiny App\n\nUser Interface (UI) defines the layout and appearance of the app.\n\n\nUse functions like fluidPage(), sidebarLayout(), sidebarPanel(), mainPanel().\nHas input elements (sliderInput(), selectInput())\nHas output elements (plotOutput(), tableOutput()).\n\n\nServer includes the logic that constructs outputs based on user inputs.\n\n\nUtilizes functions such as renderPlot(), renderTable(), and reactive({}) to make content in a dynamic way.\n\n\n\nTips\n\nAlways start simple. Eventually, add more elements to make it complex\nUse (reactive({})) reactive expressions in order to avoid redundant calculations\nInclude comments on each section/code clearly to make your App more organized and easy to understand\nLearning new things, especially for coding, always has a learning curve. Try and error, and continue practicing\n\n\n\nResources\n\nOfficial Shiny Website from Posit\nVideo Tutorial: Watching how others use Shiny is a great way to learn and practice.\n\n\nShiny Dashboard (with Rmd): Eurovision\nBring Data to Life: Create Interactive Apps with Shiny in R (with R Scripts file)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kiki Shimomae",
+    "section": "",
+    "text": "Kiki Shimomae is currently pursuing Master’s in Digital Marketing at Cal Poly Pomona. My career aspiration is to be like a bridge to connect people globally and has passion to blend data analysis into creative work for better business strategy and execution."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Kiki Shimomae",
+    "section": "Education",
+    "text": "Education\nMaster of Science in Digital Marketing | Cal Poly Pomona (Pomona, CA), 2023 - 2025\nBachelor of Arts in Communication | UC San Diego (La Jolla, CA), 2020 - 2022"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Kiki Shimomae",
+    "section": "Experience",
+    "text": "Experience\nSales and Marketing Coordinator\nTaiyo America, Inc. (Carson City, NV), July 2022 - July 2023"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Kiki Shimomae",
+    "section": "Skills",
+    "text": "Skills\nSocial Media Management (Instagram, TikTok, YouTube, LinkedIn), Graphic Design (Canva), Video & Audio Editing (Adobe premiere pro, iMovie), R (Programming)\n\nLangugae\nFluent in Japanese and English"
+  },
+  {
+    "objectID": "marketinganalytics.html",
+    "href": "marketinganalytics.html",
+    "title": "Marketing Analytics",
+    "section": "",
+    "text": "Work in Progress!\nThis page will have marketing and data analytics projects I completed through MSDM Courses including DWV. I will include multiple projects by summarizing key insights.\n\n\nCustomer Satisfaction in Airline Industry\n\nthis project uses logistic regression, decision tree, and neural network.\n\n\n\nThe Role of Social Media Influence in Shaping Consumer Behavior\n\nThis project uses multiple linear regression.\n\n\n\nAdd project 3\n\n\nAdd project 4"
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Digital Marketing Projects",
+    "section": "",
+    "text": "📈 Project: Retailing Management for Cal Poly Pomona Farm Store\n\nDuration: June 2024 – August 2024\nRole:\nObjective:\nTools Used:\nStrategy:\nResults: - include numeric value\nVisuals:\n\n\n\n📈 Project: Boosting Organic Traffic for Taiyo America\n\nDuration: June 2022 – August 2023\nRole: SEO & Content Strategist\nObjective: Increase organic traffic by 30% in 3 months\nTools Used: SEMrush, Google Search Console, WordPress\nStrategy: Conducted keyword research, optimized 20+ product pages, created blog content around trending health topics\nResults: - Organic traffic increased by 42% - Avg. session duration improved by 18%\nVisuals: Include Google Analytics screenshot, before/after keyword rankings\n\n\n\nGraphic Design Gallery"
+  },
+  {
+    "objectID": "presentation2.html#probelm-statement",
+    "href": "presentation2.html#probelm-statement",
+    "title": "Customer Satisfaction in the Airline Industry: A United Airlines Consulting Project",
+    "section": "Probelm Statement",
+    "text": "Probelm Statement\n\nUnited Airlines faces a competitive market where customer satisfaction influences retention and profitability.\nEvolving expectations and operational challenges hinder high satisfaction levels.\nBy identifying key satisfaction drivers, United can improve service quality, optimize operations, and strengthen its market position."
+  },
+  {
+    "objectID": "presentation2.html#one-analytics-objective",
+    "href": "presentation2.html#one-analytics-objective",
+    "title": "Customer Satisfaction in the Airline Industry: A United Airlines Consulting Project",
+    "section": "One Analytics Objective",
+    "text": "One Analytics Objective\nInfluence of Inflight Service Quality on Customer Satisfaction\n\nThe objective is to determine what inflight service factors, such as Wifi service, food and drink, entertainment, cleanliness, and onboard service, affect overall customer satisfaction."
+  },
+  {
+    "objectID": "presentation2.html#importance",
+    "href": "presentation2.html#importance",
+    "title": "Customer Satisfaction in the Airline Industry: A United Airlines Consulting Project",
+    "section": "Importance",
+    "text": "Importance\n\nWith United Airlines operating in an increasingly competitive market, understanding customer satisfaction is crucial for differentiation.\nThis study will provide valuable insights that United Airlines can leverage to enhance its service offerings, improve passenger experiences, and strengthen its competitive position\n\n\n\n\nCustomer Satisfaction in the Airline Industry: A United Airlines Consulting Project"
+  }
+]
