@@ -1,0 +1,41 @@
+/*-------------------------------------------------
+  Generic SCSS Starter
+  Replace the sample values with your own brand
+--------------------------------------------------*/
+/*-- scss:defaults --*/
+
+// ── Brand Palette (Personalized) ─────────────────────────
+$color-primary:   #4682B4; // Your favorite header/nav color
+$color-secondary: #6A5ACD; // Secondary color, e.g., highlights
+$neutral-1:       #FFE4E1; // Background color (MistyRose)
+
+// Optional accent & neutral tones
+$accent-1:  #8B5A2B;  // e.g., highlight / link
+$accent-2:  #A6CE6E;  // e.g., success
+$neutral-0: #FFFFFF;  // light / backgrounds
+$neutral-1: #F5F5F5;  // eggshell / subtle sections
+$neutral-9: #121212;  // near-black text
+// ── Typography ────────────────────────────────────────────
+$font-primary:    Arial, sans-serif;
+$font-secondary:  Georgia, serif;
+$font-body:       $font-primary;
+
+/*-- scss:rules --*/
+
+// Global body styles
+body {
+  font-family: $font-body;
+  color: $neutral-9;
+  background-color: $neutral-1;
+  margin: 0;
+  padding: 0;
+}
+
+// Header & Navigation styles
+header, nav {
+  background-color: $color-primary;
+  color: $neutral-0;
+  padding: 1rem;
+}
+
+// Remaining styles unchanged

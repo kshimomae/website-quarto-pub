@@ -1,1 +1,78 @@
-/* css styles */
+/* ---------------------------
+   🌈 Color & Layout Settings
+----------------------------*/
+
+/* Overall page background */
+body {
+  background-color: #FFF8F1;  /* Peach cream */
+  font-family: Arial, sans-serif;
+  color: #121212;  /* Near-black text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar (header) background */
+.navbar {
+  background-color: #CD6090 !important;  /* Soft purple-pink */
+}
+ 
+/* Navbar text (links + brand) */
+.navbar .navbar-nav .nav-link,
+.navbar-brand {
+  color: white !important;
+}
+
+/* ---------------------------
+   ✍️ Typography Styles
+----------------------------*/
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h1 {
+  color: #8B5A2B;  /* Primary */
+}
+
+h2 {
+  color: #8B795E;  /* Slightly darker than #ABCDEF */
+}
+
+h3 {
+  color: #363636;  /* Accent 1 */
+}
+
+/* Paragraphs */
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #121212;
+}
+
+/* ---------------------------
+   🔗 Link Styling
+----------------------------*/
+
+a {
+  color: #FF7F00;  /* Accent 1 */
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------------------
+   💡 Optional Highlight Class
+----------------------------*/
+
+.highlight {
+  background-color: #FF7F00;
+  color: #FFFFFF;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+}

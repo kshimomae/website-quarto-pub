@@ -1,41 +1,39 @@
 ---
-title: "Kiki Shimomae"
+title: "Hi, I'm Kiki Shimomae!"
 about:
   template: jolla
-  image: kikishimomae.jpeg
-  links: 
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/kikishimomae/      
     - icon: github
       text: Github
       href: https://github.com/kshimomae
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/kikishimomae/
     - icon: award
       text: Google Analytics Certification
       href: https://skillshop.credential.net/4b68738c-bbdd-4a12-bfe6-9884c235ce1a#acc.VI2mLl6h
-      
 ---
 
-Kiki Shimomae is currently pursuing Master's in Digital Marketing at Cal Poly Pomona. My career aspiration is to be like a bridge to connect people globally and has passion to blend data analysis into creative work for better business strategy and execution. 
+::::: columns
+::: {.column width="30%"}
+![](images/headshot.jpeg){width="100%" style="border-radius: 50%;"}
+:::
+
+::: {.column width="70%" style="padding-left: 3rem;"}
+I'm pursuing **Master's in Digital Marketing** at Cal Poly Pomona with experience in **social media management**, **data analysis**, and **SEO**. I'm passionate about blending data analysis into creative work for better business strategy and execution. My career aspiration is to be a bridge to **connect people globally**.
+:::
+:::::
 
 ## Education
 
-**Master of Science in Digital Marketing** | Cal Poly Pomona (Pomona, CA), 2023 - 2025 
+**Master of Science in Digital Marketing** \| Cal Poly Pomona (Pomona, CA), 2023 - 2025
 
-**Bachelor of Arts in Communication** | UC San Diego (La Jolla, CA), 2020 - 2022
-
-## Experience
-
-**Sales and Marketing Coordinator**
-
-Taiyo America, Inc. (Carson City, NV), July 2022 - July 2023
+**Bachelor of Arts in Communication** \| UC San Diego (La Jolla, CA), 2020 - 2022
 
 ## Skills
 
-Social Media Management (Instagram, TikTok, YouTube, LinkedIn), Graphic Design (Canva), Video & Audio Editing (Adobe premiere pro, iMovie), R (Programming)
+Social Media Management (Instagram, TikTok, YouTube, LinkedIn), Graphic Design (Canva), Video & Audio Editing (Adobe premiere pro, iMovie), R (Programming), Fluent in Japanese and English
 
-### Langugae
+## Let's Connect
 
-Fluent in Japanese and English 
-  
-
+You can [email me](kikishimomae7@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/kikishimomae/).

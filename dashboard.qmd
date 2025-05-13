@@ -15,7 +15,7 @@ data <- read_excel("AO1data.xlsx")
 
 ```
 
-## Value boxes {height="20%"}
+## Value boxes {height="25%"}
 
 ```{r}
 #| label: calculate-values
@@ -25,31 +25,33 @@ avg_service_rating <- round(mean(data$Service, na.rm = TRUE), 2)
 
 ```
 
-
 ```{r}
 #| content: valuebox
 #| title: "Average WiFi Rating"
 #| icon: wifi
 #| color: info
+#| value_text: "**`r avg_wifi_rating`**"
+#| value_text_size: "sm"
 list(
   value = avg_wifi_rating
 )
 
 ```
- 
+
 ```{r}
 #| content: valuebox
-#| title: "Avg. Service Rating"
+#| title: "Avg. Inflight Service Rating"
 #| icon: headset
 #| color: primary
+#| value_text: "**`r avg_service_rating`**"
+#| value_text_size: "sm"
 list(
   value = avg_service_rating
 )
 
 ```
 
-## Plots {height="80%"}
- 
+## Plots {height="75%"}
 
 ```{r}
 #| title: Frequency of Satisfied and Dissatisfied Customer 
@@ -86,12 +88,10 @@ data_long <- data %>%
 
 ggplot(data_long, aes(x = Category, y = Rating)) +
   geom_boxplot(fill = "skyblue") +
-  labs(x = "Service Category", y = "Rating") +
+  labs(x = "Inflight Service Category", y = "Rating (6 point likert scale") +
   theme_minimal()
 
 ```
-
-
 
 ```{r}
 #| label: fig-inflightservicefreq

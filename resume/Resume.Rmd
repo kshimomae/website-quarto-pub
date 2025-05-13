@@ -1,0 +1,92 @@
+---
+name: Kiki
+surname: Shimomae
+position: "Marketing Specialist"
+phone: +1 (949) 520-0731
+www: kshimomae.github.io/website-quarto-pub/ 
+email: kikishimomae7@gmail.com
+linkedin: linkedin.com/in/kikishimomae/
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::latexcv:
+    theme: classic
+header-includes:
+   - \usepackage{enumitem}
+   - \setlist[itemize]{nosep, left=0pt}
+   - \setlist[enumerate]{nosep, left=0pt}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+if (!requireNamespace(c("tinytex","vitae","tibble"), quietly = TRUE)) {
+  install.packages(c("tinytex","vitae","tibble"))
+}
+
+if (Sys.which("pdflatex") == "" && !tinytex::is_tinytex()) {                    
+  message("► TinyTeX not found – installing")
+  tinytex::install_tinytex()        
+} else {
+  message("✓ LaTeX present – no installation needed.")
+}
+
+library(vitae)
+library(tibble)
+```
+
+# Professional Summary
+
+Globally minded digital marketing professional with a passion for blending data-driven insights with creative strategy to drive impactful outcomes. Aspires to serve as a bridge connecting people across cultures through thoughtful, engaging campaigns. Skilled in leveraging analytics to inform decision-making and enhance brand performance, with a strong interest in using digital tools to improve customer experiences and business execution. 
+
+# Technical Skills
+
+-   **Programming Languages:** R 
+-   **Web Technologies:** HTML, CSS/SCSS, Quarto, CMS Platforms, Analytics Tools
+-   **Editing:** Canva, Adobe Premiere Pro, iMovie
+-   **Fluent in English and Japanese**
+
+# Education
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ GPA,
+  "Master of Science in Digital Marketing", "2023 – Expected Graduation August 2025", "California State Polytechnic University, Pomona", "4.0/4.0",
+  "Bachelor of Arts in Communication", "2020 - 2022", "University of California, San Diego", "3.9/4.0"
+) %>%
+  detailed_entries(Degree, Year, Institution, GPA)
+```
+
+# Work Experience
+
+```{r}
+tribble(
+  ~ Years, ~ Company, ~ Duties, ~ Title,
+
+  "July 2022 – July 2023", "Taiyo America, Inc.",
+  list(
+    "Operated 2 websites, created landing page designs, and wrote SEO-friendly blogs", 
+    "Coordinated advertising across multiple platforms such as LinkedIn, Email, YouTube, and Magazine", 
+    "Supervised trade show exhibitions, including handling booth design, advertisements, and logistics", 
+    "Designed public relations strategies and handled all the processes of press releases", 
+    "Created and edited graphic designs, videos, and the company’s promotional items", 
+    "Processed sales orders and handled customer inquiries through phone calls, email, and social media", 
+    "Performed English and Japanese translations for technical written documents and in-person/online meetings"
+  ),
+  "Sales and Marketing Coordinator",
+
+  "February 2022 – June 2022", "Pinear",
+  list(
+    "Conducted industry and market research and analyzed data from social media platforms for improvement", 
+    "Operated consistent and strategic social media posts on Instagram and LinkedIn", 
+    "Edited recorded audio into 1-hour Podcast by using Adobe Premiere Pro and published bi-weekly on Spotify"
+  ),
+  "Social Media Manager"
+
+) %>%
+  detailed_entries(
+    what = Title,
+    when = Years,
+    with = Company,
+    why = Duties
+  )
+```

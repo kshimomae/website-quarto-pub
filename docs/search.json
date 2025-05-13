@@ -56,6 +56,111 @@
     "text": "ADD DESCRIPTION"
   },
   {
+    "objectID": "coursework.html",
+    "href": "coursework.html",
+    "title": "Coursework",
+    "section": "",
+    "text": "This section includes some assignments I completed for IBM 6400 where I learned about various tools & techniques using R and Quarto."
+  },
+  {
+    "objectID": "coursework.html#dashboard",
+    "href": "coursework.html#dashboard",
+    "title": "Coursework",
+    "section": "1. Dashboard",
+    "text": "1. Dashboard\nAn interactive dashboard project using R and Quarto."
+  },
+  {
+    "objectID": "coursework.html#essay-on-shiny-apps",
+    "href": "coursework.html#essay-on-shiny-apps",
+    "title": "Coursework",
+    "section": "2. Essay on Shiny Apps",
+    "text": "2. Essay on Shiny Apps\nA reflective essay on the development and utility of Shiny Apps."
+  },
+  {
+    "objectID": "coursework.html#essay-on-shiny-live",
+    "href": "coursework.html#essay-on-shiny-live",
+    "title": "Coursework",
+    "section": "3. Essay on Shiny Live",
+    "text": "3. Essay on Shiny Live\nA brief essay on using Shiny Live for real-time web applications."
+  },
+  {
+    "objectID": "coursework.html#client-consulting-project-for-united-airline",
+    "href": "coursework.html#client-consulting-project-for-united-airline",
+    "title": "Coursework",
+    "section": "4. Client Consulting Project for United Airline",
+    "text": "4. Client Consulting Project for United Airline\n\n\n\nProject 1: Click the image here to check presentation slides\n\n\n\nInvestigate what impact the most for customer satisfaction for airline industry."
+  },
+  {
+    "objectID": "marketinganalytics.html",
+    "href": "marketinganalytics.html",
+    "title": "Marketing Analytics",
+    "section": "",
+    "text": "This page showcases my hands-on experience using data analytics, visualization and strategic insight to solve real-world marketing & business problems.\n\n1. Customer Satisfaction Analysis for United Airline\nCulminating (Graduate thesis) project focused on data-driven customer segmentation, satisfaction analysis, and actionable marketing recommendations for United Airlines using secondary data from real anonymized airline company.\n\n🎯 Focus: Airline passenger satisfaction, inflight service quality, and customer segmentation\n\n📊 Tools used: R and Excel\nMethodology: Logistic regression, decision tree, random forest, descriptive analysis.\n📈 Outcome: Identified top drivers of customer satisfaction and proposed tailored service improvements & actionable marketing recommendation.\nVisualization: Dashboard for Inflight Service Quality\n\nBelow is an embedded preview of the dashboard created for the United Airlines project:\n\n\nOpen Full Dashboard\n\n\n2. Branding Strategy for Up ENERGY PROTEIN POPCORN\nUp ENERGY Popcorn is a unique snack product that combines traditional popcorn with a caffeine boost—derived from green tea extract or coffee beans—to serve as a convenient alternative to coffee or energy drinks.\n\n🎯 Focus: Help a functional snack brand grow sales by improving brand awareness, attracting new customers, and building community.\n📊 Tools used: R, GenAI\n🔬 Methodology: Survey design, Descriptive Analysis, T-test, ANOVA, Regression\n📈 Outcome: Identified key drivers of purchase intent and awareness. Delivered clear, data-backed recommendations to enhance digital campaigns and brand messaging.\n📊 Visualization: Figures below are sample analysis visual from the Up Energy Popcorn project"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Kiki Shimomae!",
+    "section": "",
+    "text": "I’m pursuing Master’s in Digital Marketing at Cal Poly Pomona with experience in social media management, data analysis, and SEO. I’m passionate about blending data analysis into creative work for better business strategy and execution. My career aspiration is to be a bridge to connect people globally."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Hi, I’m Kiki Shimomae!",
+    "section": "Education",
+    "text": "Education\nMaster of Science in Digital Marketing | Cal Poly Pomona (Pomona, CA), 2023 - 2025\nBachelor of Arts in Communication | UC San Diego (La Jolla, CA), 2020 - 2022"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Hi, I’m Kiki Shimomae!",
+    "section": "Skills",
+    "text": "Skills\nSocial Media Management (Instagram, TikTok, YouTube, LinkedIn), Graphic Design (Canva), Video & Audio Editing (Adobe premiere pro, iMovie), R (Programming), Fluent in Japanese and English"
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Hi, I’m Kiki Shimomae!",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\nYou can email me or connect on LinkedIn."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Résumé",
+    "section": "",
+    "text": "You can view a PDF version of my résumé here.\n\nProfessional Summary\nGlobally minded digital marketing professional with a passion for blending data-driven insights with creative strategy to drive impactful outcomes. Aspires to serve as a bridge connecting people across cultures through thoughtful, engaging campaigns. Skilled in leveraging analytics to inform decision-making and enhance brand performance, with a strong interest in using digital tools to improve customer experiences and business execution.\n\n\nTechnical Skills\n\nProgramming Languages: R\nWeb Technologies: HTML, CSS/SCSS, Quarto, CMS Platforms, Analytics Tools\nEditing: Canva, Adobe Premiere Pro, iMovie\n\n\n\nEducation\n\n\n\n\n\n\n\n\n\nDegree\nYear\nInstitution\nGPA\n\n\n\n\nMaster of Science in Digital Marketing\nAugust 2025\nCalifornia State Polytechnic University, Pomona\n4.0/4.0\n\n\nBachelor of Arts in Communication\nJune 2022\nUniversity of California, San Diego\n3.9/4.0\n\n\n\n\n\nWork Experience\n\nSales and Marketing Coordinator | Taiyo America, Inc. \n[July 2022 - July 2023]\n\nOperated 2 websites, created landing page designs, and wrote SEO-friendly blogs\nCoordinated advertising across multiple platforms such as LinkedIn, Email, YouTube, and Magazine\nSupervised trade show exhibitions, including handling booth design, advertisements, and logistics\nDesigned public relations strategies and handled all the processes of press releases\nCreated and edited graphic designs, videos, and the company’s promotional items\nProcessed sales orders and handled customer inquiries through phone calls, email, and social media\nPerformed English and Japanese translations for technical written documents and in-person/online meetings\n\n\n\n\nSocial Media Manager | Pinear\n[February 2022 - June 2022]\n\nConducted industry and market research and analyzed data from social media platforms for improvement\nOperated consistent and strategic social media posts on Instagram and LinkedIn\nEdited recorded audio into 1-hour Podcast by using Adobe Premiere Pro and published bi-weekly on Spotify\n\n\n\n\nWeb Marketing Specialist | Interra USA, Inc.\n[June 2021 - September 2021]\n\nManaged a website, launched an E-commerce website, and wrote SEO-friendly blogs\nAnalyzed data from Google Analytics and social media and researched keywords and target areas/audience\nExecuted weekly strategic social media posts on Instagram, Facebook, and Linkedin\nDemonstrated advanced proficiency in Microsoft Office tools and Google Drive tools for assigned tasks\nPerformed written translation between English and Japanese"
+  },
+  {
+    "objectID": "ShinyApps.html",
+    "href": "ShinyApps.html",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Essay Prompt\nIn Step 2, you learned how to build an interactive web app using Shiny. Let’s assume that your coworkers are interested in learning about it and assume that you are helping them. Create a lecture note that you can use to teach the person. This will become part of the website under “Essay on Shiny Apps.”\n\n\n\n\n\n\nNote\n\n\n\nThe videos provided for reference are:\n\nShiny Dashboard (with Rmd): Eurovision\nBring Data to Life: Create Interactive Apps with Shiny in R (with R Scripts file)\n\n\n\n\n\nAnswer: Building Interactive Web Apps with Shiny in R\n\n\nIntroduction: What is Shiny?\n\nShiny is a package available to use in R Studio and originally developed by RStudio Inc. (current renamed company: Posit PBC) -　Shiny enables users to make interactive web applications directly from R Studio & Python\nDoes not require users to have comprehensive knowledge of website development languages such as HTML, CSS, JavaScript\nCan be used for data visualization, exploratory analysis, and interactive dashboards.\n\n\n\nBenefits of Using Shiny\n\nEasy to use for users who are familiar with R and Python\nMake the entire process of making interactive and responsive data-driven apps simple and easy\nEffective and easy to share data analysis and insight from the data with any collaborator, including other users and your clients.\n\n\n\nKey Components of Shiny App\n\nUser Interface (UI) defines the layout and appearance of the app.\n\n\nUse functions like fluidPage(), sidebarLayout(), sidebarPanel(), mainPanel().\nHas input elements (sliderInput(), selectInput())\nHas output elements (plotOutput(), tableOutput()).\n\n\nServer includes the logic that constructs outputs based on user inputs.\n\n\nUtilizes functions such as renderPlot(), renderTable(), and reactive({}) to make content in a dynamic way.\n\n\n\nTips\n\nAlways start simple. Eventually, add more elements to make it complex\nUse (reactive({})) reactive expressions in order to avoid redundant calculations\nInclude comments on each section/code clearly to make your App more organized and easy to understand\nLearning new things, especially for coding, always has a learning curve. Try and error, and continue practicing\n\n\n\nResources\n\nOfficial Shiny Website from Posit\nVideo Tutorial: Watching how others use Shiny is a great way to learn and practice.\n\n\nShiny Dashboard (with Rmd): Eurovision\nBring Data to Life: Create Interactive Apps with Shiny in R (with R Scripts file)"
+  },
+  {
+    "objectID": "resume/Resume.html",
+    "href": "resume/Resume.html",
+    "title": "Professional Summary",
+    "section": "",
+    "text": "Professional Summary\nGlobally minded digital marketing professional with a passion for blending data-driven insights with creative strategy to drive impactful outcomes. Aspires to serve as a bridge connecting people across cultures through thoughtful, engaging campaigns. Skilled in leveraging analytics to inform decision-making and enhance brand performance, with a strong interest in using digital tools to improve customer experiences and business execution.\n\n\nTechnical Skills\n\nProgramming Languages: R\nWeb Technologies: HTML, CSS/SCSS, Quarto, CMS Platforms, Analytics Tools\nEditing: Canva, Adobe Premiere Pro, iMovie\nFluent in English and Japanese\n\n\n\nEducation\n\n\n# A tibble: 2 × 5\n  what                                   when                  with  where why  \n  &lt;chr&gt;                                  &lt;chr&gt;                 &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 Master of Science in Digital Marketing 2023 – Expected Grad… Cali… 4.0/… &lt;chr&gt;\n2 Bachelor of Arts in Communication      2020 - 2022           Univ… 3.9/… &lt;chr&gt;\n\n\n\n\nWork Experience\n\n\n# A tibble: 2 × 5\n  what                            when                      with    where why   \n  &lt;chr&gt;                           &lt;chr&gt;                     &lt;chr&gt;   &lt;chr&gt; &lt;list&gt;\n1 Sales and Marketing Coordinator July 2022 – July 2023     Taiyo … &lt;NA&gt;  &lt;list&gt;\n2 Social Media Manager            February 2022 – June 2022 Pinear  &lt;NA&gt;  &lt;list&gt;"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Please come back later."
+  },
+  {
+    "objectID": "about.html#coming-soon",
+    "href": "about.html#coming-soon",
+    "title": "Blog",
+    "section": "",
+    "text": "Please come back later."
+  },
+  {
     "objectID": "presentation1.html#data",
     "href": "presentation1.html#data",
     "title": "Identifying Key Drivers for Customer Satisfaction in the Airline Industry",
@@ -91,67 +196,11 @@
     "text": "Expected impact of the project on the business\n\nEnhance customer experience by focusing on improving key drivers for satisfaction\nReduce customer churn rate by focusing on and targeting factors that can lead to high-risk dissatisfaction\nMake informed and data-driven decisions for resource allocation and operation and marketing strategy\nOptimize employee training by prioritizing the impact factor for better customer satisfaction.\n\n\n\n\nIdentifying Key Drivers for Customer Satisfaction in the Airline Industry"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Please come back later."
-  },
-  {
-    "objectID": "about.html#coming-soon",
-    "href": "about.html#coming-soon",
-    "title": "Blog",
-    "section": "",
-    "text": "Please come back later."
-  },
-  {
-    "objectID": "ShinyApps.html",
-    "href": "ShinyApps.html",
-    "title": "Essay on Shiny Apps",
-    "section": "",
-    "text": "Essay Prompt\nIn Step 2, you learned how to build an interactive web app using Shiny. Let’s assume that your coworkers are interested in learning about it and assume that you are helping them. Create a lecture note that you can use to teach the person. This will become part of the website under “Essay on Shiny Apps.”\n\n\n\n\n\n\nNote\n\n\n\nThe videos provided for reference are:\n\nShiny Dashboard (with Rmd): Eurovision\nBring Data to Life: Create Interactive Apps with Shiny in R (with R Scripts file)\n\n\n\n\n\nAnswer: Building Interactive Web Apps with Shiny in R\n\n\nIntroduction: What is Shiny?\n\nShiny is a package available to use in R Studio and originally developed by RStudio Inc. (current renamed company: Posit PBC) -　Shiny enables users to make interactive web applications directly from R Studio & Python\nDoes not require users to have comprehensive knowledge of website development languages such as HTML, CSS, JavaScript\nCan be used for data visualization, exploratory analysis, and interactive dashboards.\n\n\n\nBenefits of Using Shiny\n\nEasy to use for users who are familiar with R and Python\nMake the entire process of making interactive and responsive data-driven apps simple and easy\nEffective and easy to share data analysis and insight from the data with any collaborator, including other users and your clients.\n\n\n\nKey Components of Shiny App\n\nUser Interface (UI) defines the layout and appearance of the app.\n\n\nUse functions like fluidPage(), sidebarLayout(), sidebarPanel(), mainPanel().\nHas input elements (sliderInput(), selectInput())\nHas output elements (plotOutput(), tableOutput()).\n\n\nServer includes the logic that constructs outputs based on user inputs.\n\n\nUtilizes functions such as renderPlot(), renderTable(), and reactive({}) to make content in a dynamic way.\n\n\n\nTips\n\nAlways start simple. Eventually, add more elements to make it complex\nUse (reactive({})) reactive expressions in order to avoid redundant calculations\nInclude comments on each section/code clearly to make your App more organized and easy to understand\nLearning new things, especially for coding, always has a learning curve. Try and error, and continue practicing\n\n\n\nResources\n\nOfficial Shiny Website from Posit\nVideo Tutorial: Watching how others use Shiny is a great way to learn and practice.\n\n\nShiny Dashboard (with Rmd): Eurovision\nBring Data to Life: Create Interactive Apps with Shiny in R (with R Scripts file)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Kiki Shimomae",
-    "section": "",
-    "text": "Kiki Shimomae is currently pursuing Master’s in Digital Marketing at Cal Poly Pomona. My career aspiration is to be like a bridge to connect people globally and has passion to blend data analysis into creative work for better business strategy and execution."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Kiki Shimomae",
-    "section": "Education",
-    "text": "Education\nMaster of Science in Digital Marketing | Cal Poly Pomona (Pomona, CA), 2023 - 2025\nBachelor of Arts in Communication | UC San Diego (La Jolla, CA), 2020 - 2022"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Kiki Shimomae",
-    "section": "Experience",
-    "text": "Experience\nSales and Marketing Coordinator\nTaiyo America, Inc. (Carson City, NV), July 2022 - July 2023"
-  },
-  {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
-    "title": "Kiki Shimomae",
-    "section": "Skills",
-    "text": "Skills\nSocial Media Management (Instagram, TikTok, YouTube, LinkedIn), Graphic Design (Canva), Video & Audio Editing (Adobe premiere pro, iMovie), R (Programming)\n\nLangugae\nFluent in Japanese and English"
-  },
-  {
-    "objectID": "marketinganalytics.html",
-    "href": "marketinganalytics.html",
-    "title": "Marketing Analytics",
-    "section": "",
-    "text": "Work in Progress!\nThis page will have marketing and data analytics projects I completed through MSDM Courses including DWV. I will include multiple projects by summarizing key insights.\n\n\nCustomer Satisfaction in Airline Industry\n\nthis project uses logistic regression, decision tree, and neural network.\n\n\n\nThe Role of Social Media Influence in Shaping Consumer Behavior\n\nThis project uses multiple linear regression.\n\n\n\nAdd project 3\n\n\nAdd project 4"
-  },
-  {
     "objectID": "project.html",
     "href": "project.html",
     "title": "Digital Marketing Projects",
     "section": "",
-    "text": "📈 Project: Retailing Management for Cal Poly Pomona Farm Store\n\nDuration: June 2024 – August 2024\nRole:\nObjective:\nTools Used:\nStrategy:\nResults: - include numeric value\nVisuals:\n\n\n\n📈 Project: Boosting Organic Traffic for Taiyo America\n\nDuration: June 2022 – August 2023\nRole: SEO & Content Strategist\nObjective: Increase organic traffic by 30% in 3 months\nTools Used: SEMrush, Google Search Console, WordPress\nStrategy: Conducted keyword research, optimized 20+ product pages, created blog content around trending health topics\nResults: - Organic traffic increased by 42% - Avg. session duration improved by 18%\nVisuals: Include Google Analytics screenshot, before/after keyword rankings\n\n\n\nGraphic Design Gallery"
+    "text": "📈 Boosting Organic Traffic for Taiyo America.\n🗓 Duration: June 2022 - July 2023\n🏢 Company: Taiyo America, Inc. (B2B Chemical Manufacturer)\n📌 Project Overview\n\nTaiyo America faced stagnant organic web traffic and low visibility for its key product pages. The goal was to boost search engine rankings and generate qualified leads through SEO and content strategy. I led a full-scale SEO revamp, combining technical optimization, strategic keyword targeting, consistent blog posting, and content creation to drive sustainable traffic growth and improve lead generation.\n\n🎯 Objectives\n\nIncrease organic website traffic by 30%\nGenerate more qualified leads through the website\nImprove keyword ranking for industry-specific term\n\n🧠 My Role\n\nConducted SEO audit and competitor analysis\nBuilt a monthly content calendar based on keyword gaps\nCollaborated with the technical team to improve site speed and usability\nReported monthly KPIs to management\nWrote SEO friendly blogs consistently\n\n⚙️ Key Tools Used\n\nSEMrush\nGoogle Search Console\nWordPress\nCanva\n\n📈 Results\n\n40% increase in organic traffic (compared to the previous year)\n20% increase in leads from submission\nAchieved top 3 rankings for 6 target keywords\n\n\n\n📈 Retail Strategy Project for Cal Poly Pomona Farm Store\n🗓 Duration: June 2024 – August 2024\n🏢 Company: Cal Poly Pomona Farm Store (Course Group Project, Retailing Management)\n📌 Project Overview\n\nAs part of a Retailing Management course, I worked as an independent contractors with my classmates to consult for the Cal Poly Pomona Farm Store, a university-run organic grocery store. We conducted a comprehensive retail analysis and proposed strategic improvements in merchandising, customer experience, digital marketing strategy, and promotional tactics. Our goal was to strengthen the store’s competitive position and community engagement.\n\n🎯 Objectives\n\nEvaluate the store’s current retail & marketing strategy and market positioning\nIdentify opportunities to improve merchandising and customer targeting\nDevelop realistic, actionable strategies the store could implement\n\n⚙️ Key Tools Used\n\nCanva\nPowerpoint\nInstagram\nIBIS report\n\n📈 Results\n\nProposed seasonal gift box program to boost revenue during holidays\nIntroduced “Grab & Go” concept to attract student and commuter shoppers\nCreated a 3-month content calendar to enhance social media engagement\nReceived positive feedback from Farm Store management on feasibility and innovation\n\n\n\n📈 Podcast Launch & Social Media Strategy for Pinear\n🗓 Duration: February 2022 – June 2022\n🏢 Company: Pinear (startup based in La Jolla, CA)\n📌 Project Overview\n\nPinear, an early-stage startup, aimed to build thought leadership and brand awareness through content marketing and social media. I developed and launched a branded podcast series featuring immigration story and managed the company’s social presence to drive engagement and establish credibility. My work involved end-to-end podcast production, social media content planning, and analytics-based optimization.\nCheck out Love, Immigrant Podcast series!\n\n🎯 Objectives\n\nLaunch a branded podcast to showcase startup insights and industry voices\nImprove consistency and engagement across Instagram and LinkedIn\nAnalyze social performance to inform future content strategy\n\n🧠 My Role\n\nRecorded and edited high-quality audio into 30 min - 1-hour episodes using Adobe Premiere Pro\nPublished bi-weekly episodes on Spotify and managed content calendar\nResearched audience behavior and engagement metrics on Instagram and LinkedIn\nScheduled and posted content aligned with podcast topics and brand voice\n\n⚙️ Key Tools Used\n\nAdobe Premiere Pro\nSpotify\nInstagram and LinkedIn\n\n📈 Results\n\nSuccessfully launched and maintained a bi-weekly podcast series\nIncreased Instagram engagement by 30% through topic-aligned visuals\nAchieved steady follower growth and consistent content reach\nGained actionable insights by tracking post-performance trends"
   },
   {
     "objectID": "presentation2.html#probelm-statement",

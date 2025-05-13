@@ -1,0 +1,17 @@
+{
+  "hash": "197199ee804fd09be6a00fb270d15bf8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\nname: Kiki\nsurname: Shimomae\nposition: \"Marketing Specialist\"\nphone: +1 (949) 520-0731\nwww: kshimomae.github.io/website-quarto-pub/ \nemail: kikishimomae7@gmail.com\nlinkedin: linkedin.com/in/kikishimomae/\ndate: \"May 2025\"\noutput: \n  vitae::latexcv:\n    theme: classic\nheader-includes:\n   - \\usepackage{enumitem}\n   - \\setlist[itemize]{nosep, left=0pt}\n   - \\setlist[enumerate]{nosep, left=0pt}\n---\n\n\n\n\n\n\n# Professional Summary\n\nGlobally minded digital marketing professional with a passion for blending data-driven insights with creative strategy to drive impactful outcomes. Aspires to serve as a bridge connecting people across cultures through thoughtful, engaging campaigns. Skilled in leveraging analytics to inform decision-making and enhance brand performance, with a strong interest in using digital tools to improve customer experiences and business execution. \n\n# Technical Skills\n\n-   **Programming Languages:** R \n-   **Web Technologies:** HTML, CSS/SCSS, Quarto, CMS Platforms, Analytics Tools\n-   **Editing:** Canva, Adobe Premiere Pro, iMovie\n-   **Fluent in English and Japanese**\n\n# Education\n\n\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 2 × 5\n  what                                   when                  with  where why  \n  <chr>                                  <chr>                 <chr> <chr> <lis>\n1 Master of Science in Digital Marketing 2023 – Expected Grad… Cali… 4.0/… <chr>\n2 Bachelor of Arts in Communication      2020 - 2022           Univ… 3.9/… <chr>\n```\n\n\n:::\n:::\n\n\n\n\n# Work Experience\n\n\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 2 × 5\n  what                            when                      with    where why   \n  <chr>                           <chr>                     <chr>   <chr> <list>\n1 Sales and Marketing Coordinator July 2022 – July 2023     Taiyo … <NA>  <list>\n2 Social Media Manager            February 2022 – June 2022 Pinear  <NA>  <list>\n```\n\n\n:::\n:::\n",
+    "supporting": [
+      "Resume_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

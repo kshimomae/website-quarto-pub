@@ -15,36 +15,109 @@ execute:
   echo: true
 bibliography: references.bib
 ---
-# 📈 Project: Retailing Management for Cal Poly Pomona Farm Store 
 
-- Duration: June 2024 – August 2024
-- Role: 
-- Objective: 
-- Tools Used:
-- Strategy: 
-- Results:
-      - include numeric value
+# 📈 Boosting Organic Traffic for Taiyo America.
 
-- Visuals:  
+  🗓 Duration: June 2022 - July 2023
+  
+  🏢 Company: Taiyo America, Inc. (B2B Chemical Manufacturer) 
+
+📌 Project Overview
+
+- Taiyo America faced stagnant organic web traffic and low visibility for its key product pages. The goal was to boost search engine rankings and generate qualified leads through SEO and content strategy. I led a full-scale SEO revamp, combining technical optimization, strategic keyword targeting, consistent blog posting, and content creation to drive sustainable traffic growth and improve lead generation.
+
+🎯 Objectives
+
+- Increase organic website traffic by 30%
+- Generate more qualified leads through the website 
+- Improve keyword ranking for industry-specific term 
+
+🧠 My Role
+
+- Conducted SEO audit and competitor analysis
+- Built a monthly content calendar based on keyword gaps
+- Collaborated with the technical team to improve site speed and usability
+- Reported monthly KPIs to management 
+- Wrote SEO friendly blogs consistently 
+
+⚙️ Key Tools Used
+
+- SEMrush
+- Google Search Console
+- WordPress
+- Canva
+
+📈 Results
+
+- 40% increase in organic traffic (compared to the previous year) 
+- 20% increase in leads from submission 
+- Achieved top 3 rankings for 6 target keywords 
+
+# 📈 Retail Strategy Project for Cal Poly Pomona Farm Store
+
+ 🗓 Duration: June 2024 – August 2024
+
+ 🏢 Company: Cal Poly Pomona Farm Store (Course Group Project, Retailing Management)
+
+📌 Project Overview
+
+- As part of a Retailing Management course, I worked as an independent contractors with my classmates to consult for the Cal Poly Pomona Farm Store, a university-run organic grocery store. We conducted a comprehensive retail analysis and proposed strategic improvements in merchandising, customer experience, digital marketing strategy, and promotional tactics. Our goal was to strengthen the store’s competitive position and community engagement.
+
+🎯 Objectives
+
+- Evaluate the store's current retail & marketing strategy and market positioning
+- Identify opportunities to improve merchandising and customer targeting
+- Develop realistic, actionable strategies the store could implement
+
+⚙️ Key Tools Used
+
+-  Canva
+- Powerpoint
+- Instagram
+- IBIS report
+
+📈 Results
+
+- Proposed seasonal gift box program to boost revenue during holidays
+- Introduced “Grab & Go” concept to attract student and commuter shoppers
+- Created a 3-month content calendar to enhance social media engagement
+- Received positive feedback from Farm Store management on feasibility and innovation
 
 
-# 📈 Project: Boosting Organic Traffic for Taiyo America
+# 📈 Podcast Launch & Social Media Strategy for Pinear
 
-- Duration: June 2022 – August 2023
-- Role: SEO & Content Strategist
-- Objective: Increase organic traffic by 30% in 3 months
-- Tools Used: SEMrush, Google Search Console, WordPress
-- Strategy: Conducted keyword research, optimized 20+ product pages, created blog content around trending health topics
-- Results:
-      - Organic traffic increased by 42%
-      - Avg. session duration improved by 18%
-
-- Visuals: Include Google Analytics screenshot, before/after keyword rankings
-
-
-
-# Graphic Design Gallery 
-
-
-
+ 🗓 Duration: February 2022 – June 2022
  
+ 🏢 Company: Pinear (startup based in La Jolla, CA) 
+
+📌 Project Overview
+
+- Pinear, an early-stage startup, aimed to build thought leadership and brand awareness through content marketing and social media. I developed and launched a branded podcast series featuring immigration story and managed the company’s social presence to drive engagement and establish credibility. My work involved end-to-end podcast production, social media content planning, and analytics-based optimization.
+- Check out [Love, Immigrant Podcast series](https://open.spotify.com/show/70DdZqL2eddIDky1SE6sop?si=d0990ad9df9b4fb6)! 
+
+
+🎯 Objectives
+
+- Launch a branded podcast to showcase startup insights and industry voices
+- Improve consistency and engagement across Instagram and LinkedIn
+- Analyze social performance to inform future content strategy
+
+🧠 My Role
+
+- Recorded and edited high-quality audio into 30 min - 1-hour episodes using Adobe Premiere Pro
+- Published bi-weekly episodes on Spotify and managed content calendar
+- Researched audience behavior and engagement metrics on Instagram and LinkedIn
+- Scheduled and posted content aligned with podcast topics and brand voice
+
+⚙️ Key Tools Used
+
+- Adobe Premiere Pro
+- Spotify 
+- Instagram and LinkedIn
+
+📈 Results
+
+- Successfully launched and maintained a bi-weekly podcast series
+- Increased Instagram engagement by 30% through topic-aligned visuals
+- Achieved steady follower growth and consistent content reach
+- Gained actionable insights by tracking post-performance trends

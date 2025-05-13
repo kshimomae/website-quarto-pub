@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Kiki Shimomae"
@@ -7,29 +8,22 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: dashboard.qmd
-        text: Dashboard
-      - href: ShinyApps.qmd
-        text: Essay on Shiny Apps
-      - href: ShinyLive.qmd
-        text: Essay on Shiny Live
       - href: project.qmd
         text: Digital Marketing Projects
       - href: marketinganalytics.qmd
         text: Marketing Analytics
-      - href: presentations.qmd
-        text: Reveajs Presentation
-      - href: about.qmd
-        text: Blogs
-
+      - href: resume.qmd
+        text: Resume
+      - href: coursework.qmd
+        text: Coursework
 format:
   html:
-    theme:
-      - cosmo
+   theme:
+    - cosmo
       - brand
-    css: styles.css
-    toc: true
-
+css: styles.css
+toc: true 
+ 
 editor: visual
 execute: 
   freeze: auto

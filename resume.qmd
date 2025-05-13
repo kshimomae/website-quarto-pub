@@ -1,0 +1,71 @@
+---
+title: "Résumé"
+---
+
+```{r knit-resume, echo=FALSE, message=FALSE}
+rmarkdown::render(
+  "resume/Resume.Rmd",
+  output_format = "pdf_document",
+  output_file   = "Resume.pdf",
+  output_dir    = "resume",
+  quiet         = TRUE
+)
+```
+
+You can view a PDF version of my résumé [here](resume/Resume.pdf).
+
+# Professional Summary
+
+Globally minded digital marketing professional with a passion for blending data-driven insights with creative strategy to drive impactful outcomes. Aspires to serve as a bridge connecting people across cultures through thoughtful, engaging campaigns. Skilled in leveraging analytics to inform decision-making and enhance brand performance, with a strong interest in using digital tools to improve customer experiences and business execution. 
+
+# Technical Skills
+
+-   **Programming Languages:** R 
+-   **Web Technologies:** HTML, CSS/SCSS, Quarto, CMS Platforms, Analytics Tools
+-   **Editing:** Canva, Adobe Premiere Pro, iMovie 
+
+# Education
+
+| Degree | Year | Institution | GPA |
+|-------------------|-----------------|-----------------|----------------|
+| Master of Science in Digital Marketing | August 2025 | California State Polytechnic University, Pomona | 4.0/4.0
+| Bachelor of Arts in Communication | June 2022  | University of California, San Diego | 3.9/4.0
+
+
+# Work Experience
+
+### Sales and Marketing Coordinator | Taiyo America, Inc. 
+
+*\[July 2022 - July 2023\]*
+
+- Operated 2 websites, created landing page designs, and wrote SEO-friendly blogs
+- Coordinated advertising across multiple platforms such as LinkedIn, Email, YouTube, and Magazine
+- Supervised trade show exhibitions, including handling booth design, advertisements, and logistics
+- Designed public relations strategies and handled all the processes of press releases
+- Created and edited graphic designs, videos, and the company’s promotional items
+- Processed sales orders and handled customer inquiries through phone calls, email, and social media
+- Performed English and Japanese translations for technical written documents and in-person/online meetings
+
+------------------------------------------------------------------------
+
+### Social Media Manager | Pinear
+
+*\[February 2022 - June 2022\]*
+
+- Conducted industry and market research and analyzed data from social media platforms for improvement
+- Operated consistent and strategic social media posts on Instagram and LinkedIn
+- Edited recorded audio into 1-hour Podcast by using Adobe Premiere Pro and published bi-weekly on Spotify
+
+------------------------------------------------------------------------
+
+### Web Marketing Specialist | Interra USA, Inc.
+
+*\[June 2021 - September 2021\]*
+
+- Managed a website, launched an E-commerce website, and wrote SEO-friendly blogs
+- Analyzed data from Google Analytics and social media and researched keywords and target areas/audience
+- Executed weekly strategic social media posts on Instagram, Facebook, and Linkedin
+- Demonstrated advanced proficiency in Microsoft Office tools and Google Drive tools for assigned tasks
+- Performed written translation between English and Japanese
+
+------------------------------------------------------------------------
